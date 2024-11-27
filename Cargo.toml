@@ -1,0 +1,12 @@
+[package]
+name = "aky_rust_gstreamer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstreamer = "0.18"
+gstreamer-app = "0.18"
+# gstreamer = "0.23"
+# gstreamer-app = "0.23"
+#gstreamer-net-sys = "0.23.2"
+#gstreamer-rtsp-server = "0.23.3"
