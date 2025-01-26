@@ -1,0 +1,30 @@
+[package]
+name = "play_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.18.2"
+anyhow = "1.0.95"
+byte-slice-cast = "1.2.2"
+derive_more = { version = "1", features = ["display", "error"] }
+cairo-rs = "0.20.7"
+gio = "0.20.7"
+gio-sys = "0.20.8"
+glib = "0.20.7"
+glib-sys = "0.20.7"
+gobject-sys = "0.20.7"
+pango = "0.20.7"
+pangocairo = "0.20.7"
+gst = { package = "gstreamer", version = "0.23.4"  }
+gst-app = { package = "gstreamer-app", version = "0.23.4" }
+gst-audio = { package = "gstreamer-audio", version = "0.23.4" }
+gst-video = { package = "gstreamer-video", version = "0.23.4" }
+gst-base = { package = "gstreamer-base",  version = "0.23.4" }
+gst-play = { package = "gstreamer-play",  version = "0.23.4" }
+gst-player = { package = "gstreamer-player",  version = "0.23.4" }
+gstreamer-base-sys = "0.23.4"
+gstreamer-app-sys = "0.23.4"
+gstreamer-audio-sys = "0.23.4"
+gstreamer-play-sys = "0.23.4"
+gstreamer-player-sys = "0.23.4"
